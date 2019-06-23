@@ -1,0 +1,62 @@
+<div class="info">
+%titletrim%を取り扱うまとめブログ様を募集しております。<br />
+応募前に相互リンク、また相互RSSの準備をお願いします。<br />
+<br />
+以下のサイトは登録をご遠慮頂いています。<br />
+・アダルト・グロ画像の有るサイト<br />
+・たらい回しサイト<br />
+・記事紹介サイト<br />
+・まとめとは関係のないサイト<br />
+登録後に上記のサイトに該当する形態となった場合、発見次第削除致します。<br />
+現在は上記のサイトに該当しないかのチェックくらいしか審査はしておりません。<br />
+<br />
+<br />
+サイトのPickUp表示、RSSは、アクセスを多く頂いたサイト様に還元できるよう調整しています。<br />
+具体的には、<br />
+・アクセスの多いサイト様を優先して表示させます。<br />
+・なるべく還元率を100%以上にするように、還元率に応じた表示調整をしています。<br />
+・1週間に1アクセスも送られてこない場合は、次週の記事取得を停止します。<br />
+以上の対応を行っておりますが、確実にアクセスをお返しできることを保証するものではございません。<br />
+どうしても記事タイトルによって差が出てしまいますので、もしアクセスが全然返ってこないといった場合、<br />
+一度記事タイトルの工夫をして頂いただくことで改善する場合があります。<br />
+<br />
+<br />
+新規登録・登録情報変更フォームは以下より
+<!---->
+<form method="post" action="http://arheto.net/mail.php">
+
+■申請内容<br />
+  <select name="申請内容">
+  <option value="新規登録">新規登録</option>
+  <option value="登録情報変更">登録情報変更</option>
+  </select><br />
+■お名前（ハンドルネーム可）<br />
+<input type="text" name="名前" /><br />
+■Mail（半角）<br />
+<input type="text" name="Email" />※必須<br />
+■サイト名<br />
+<input type="text" name="SiteName" /><br />
+■サイトURL（半角）<br />
+<input type="text" name="URL" />※必須<br />
+■RSS URL（半角）<br />
+<input  type="text" name="RSSURL" />※必須<br />
+<input type="hidden" name="AntennaID" value="%aid%">
+<input type="hidden" name="Category" value="none">
+
+<br />
+<!--
+■サイトを知ったきっかけ
+<input name="知ったきっかけ[]" type="checkbox" value="友人・知人" />
+友人・知人
+<input name="知ったきっかけ[]" type="checkbox" value="検索エンジン" />
+検索エンジン
+-->
+
+■その他<br />
+<textarea name="その他"></textarea><br />
+■spamチェック (1234と入力してください)<br />
+<input type="text" name="SPAMKILL" />※必須<br /><br />
+<input type="submit" value="送信" />
+<input type="reset" value="リセット" />
+</form>
+</div>

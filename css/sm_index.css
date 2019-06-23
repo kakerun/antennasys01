@@ -1,0 +1,495 @@
+@charset "Shift_JIS";
+
+
+.adfunnel_sp {
+	clear:both;
+}
+
+#main {
+	background-color: #EEEEBB;
+}
+
+#contents {
+	
+}
+
+#top_favo {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	border-bottom-left-radius: 6px;        /* CSS3草案 */ 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px;    /* Safari,Google Chrome用 */ 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;   /* Firefox用 */ 
+	-moz-border-radius-bottomright: 6px;
+	margin-bottom:6px;
+}
+
+#top_favo .rss_light {
+	background-color:#FFCC33;
+}
+
+#top_favo li a{
+	padding-top:0px;
+	display:block;
+	border-bottom:1px solid #000000;
+}
+
+#top_favo li a:hover {
+	background-color:#DDDDAA;
+}
+
+#top_favo .ft{
+	padding-top:6px;
+	text-align:center;
+	clear:both;
+}
+
+#top_favo .ft:hover {
+	background-color:#FFFFFF;
+	border-bottom-left-radius: 6px;        /* CSS3草案 */ 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px;    /* Safari,Google Chrome用 */ 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;   /* Firefox用 */ 
+	-moz-border-radius-bottomright: 6px;
+}
+
+#top_favo li .st1{
+	padding-left:6px;
+	font-size:1em;
+	font-weight:bold;
+}
+
+#top_favo li .st2{
+	font-size:0.9em;
+}
+
+#top_favo li .st3{
+	color:#000000;
+	float:right;
+}
+
+#top_favo li a:hover {
+	text-decoration:none;
+}
+
+#top_favo li .st1_rss{
+	padding-left:6px;
+	font-size:1em;
+	font-weight:bold;
+	color:#333333;
+}
+
+#top_favo li .st2_rss{
+	font-size: 0.9em;
+	font-weight:bold;
+	color:#333333;
+}
+
+#top_favo li .st3_rss{
+	font-size: 0.8em;
+	color:#000000;
+	float:right;
+}
+
+
+#hello {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	border-bottom-left-radius: 6px;        /* CSS3草案 */ 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px;    /* Safari,Google Chrome用 */ 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;   /* Firefox用 */ 
+	-moz-border-radius-bottomright: 6px;
+	margin-bottom:6px;
+}
+
+#hello .accordion_head{
+	border-bottom:1px solid #000000;
+	display:block;
+	background-color:#FFFFBB;
+	font-weight:bold;
+	color:#666600;
+	padding:6px 0px 0px 6px;
+}
+
+#hello .accordion_head:hover{
+	background-color:#DDDDAA;
+}
+
+#hello li{
+	padding-top:0px;
+	display:block;
+}
+
+#hello .hv{
+	border-bottom:1px solid #000000;
+}
+
+#hello .rss_light {
+	background-color:#FFCC33;
+}
+
+#hello li:hover {
+	background-color:#DDDDAA;
+}
+
+#hello .info {
+	padding-left:6px;
+	padding-top:6px;
+	font-size:1em;
+}
+
+#hello .ft{
+	/*height:46px;*/
+	text-align:center;
+	padding-top:6px;
+}
+
+#hello .ft:hover {
+	background-color:#FFFFFF;
+	border-bottom-left-radius: 6px;        /* CSS3草案 */ 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px;    /* Safari,Google Chrome用 */ 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;   /* Firefox用 */ 
+	-moz-border-radius-bottomright: 6px;
+}
+
+#hello .ft a {
+	/*width: 46px;*/
+	color: #ffffff;
+	background-color: #ff3333;
+	text-align:center;
+	display: inline-block;
+	padding-top:3px;
+	padding-left:12px;
+	padding-right:12px;
+	margin-bottom:6px;
+	border:1px solid #000000;
+	
+	background: -moz-linear-gradient(
+		top,
+		#ffaaaa 0%,
+		#ff6666 50%,
+		#ff0000 50%,
+		#ff3333 65%,
+		#ff3333);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffdddd),
+		color-stop(0.50, #ff6666),
+		color-stop(0.50, #ff0000),
+		color-stop(0.65, #ff3333),
+		to(#ff3333));
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3333', endColorstr='#ff6666');*/
+	
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */  
+}
+
+#hello .ft a:hover {
+	color: #990000;
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+	
+	background: -moz-linear-gradient(
+		top,
+		#ff6666 0%,
+		#ff9999 50%,
+		#ffffff);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ff6666),
+		color-stop(0.50, #ff9999),
+		to(#ffffff));
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdddd', endColorstr='#FFFFFF');*/
+	
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */ 
+	text-decoration:none; 
+}
+
+#hello .ft span {
+	/*width: 46px;*/
+	text-align:center;
+	display: inline-block;
+	padding-top:3px;
+	padding-left:12px;
+	padding-right:12px;
+	margin-bottom:6px;
+	margin-right:4px;
+	color: #ff6633;
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */ 
+	text-decoration:none;
+}
+
+#hello li .st1{
+	padding-left:6px;
+	font-size:1em;
+	font-weight:bold;
+}
+
+#hello li .st2{
+	font-size: 0.9em;
+	font-weight:bold;
+	color:#FF9900;
+}
+
+#hello li .st3{
+	font-size: 0.8em;
+	color:#000000;
+	float:right;
+}
+
+#hello li .st1_rss{
+	padding-left:6px;
+	font-size:1em;
+	font-weight:bold;
+	color:#333333;
+}
+
+#hello li .st2_rss{
+	font-size: 0.9em;
+	font-weight:bold;
+	color:#333333;
+}
+
+#hello li .st3_rss{
+	font-size: 0.8em;
+	color:#000000;
+	float:right;
+}
+
+#hello li .st91 a{
+	padding-left:6px;
+	font-size:1em;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+	-o-text-overflow: ellipsis; /* Opera */
+	white-space: nowrap;
+	display:block;
+	padding-top:6px;
+}
+
+#hello li .dayline{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding-left:6px;
+	padding-top:6px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+	-o-text-overflow: ellipsis; /* Opera */
+	white-space: nowrap;
+	background-color:#888866;
+	color:#FFFFFF;
+}
+
+#hello li a:hover {
+	text-decoration:none;
+}
+
+#old_week {
+	border-radius: 6px;        /* CSS3草案 */ 
+    -webkit-border-radius: 6px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 6px;   /* Firefox用 */ 
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	padding: 6px 6px 0px 6px;
+	text-align:center;
+}
+
+#old_week a {
+	/*width: 46px;*/
+	color: #CC3300;
+	background-color: #ffcc33;
+	text-align:center;
+	display: inline-block;
+	padding-top:3px;
+	padding-left:12px;
+	padding-right:12px;
+	margin-bottom:6px;
+	border:1px solid #000000;
+	
+	background: -moz-linear-gradient(
+		top,
+		#ffffaa 0%,
+		#ffee66 50%,
+		#ffaa00 50%,
+		#ffcc33 65%,
+		#ffcc33);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffdd),
+		color-stop(0.50, #ffee66),
+		color-stop(0.50, #ffaa00),
+		color-stop(0.65, #ffcc33),
+		to(#ffcc33));
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3333', endColorstr='#ff6666');*/
+	
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */  
+}
+
+#old_week a:hover {
+	color: #990000;
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+	
+	background: -moz-linear-gradient(
+		top,
+		#ffee66 0%,
+		#ffff99 50%,
+		#ffffff);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffee66),
+		color-stop(0.50, #ffff99),
+		to(#ffffff));
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdddd', endColorstr='#FFFFFF');*/
+	
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */ 
+	text-decoration:none; 
+}
+
+#diary {}
+
+#diary h6 {
+	padding-left: 0px;
+}
+
+#h6 span {
+	color: #666666;
+}
+
+#sidebar {
+	background-color: #EEEEBB;
+	margin-top: 6px;
+}
+
+#search {
+	
+}
+
+#counter {
+	background-color: #FFFFFF;
+	padding-left: 6px;
+	margin-bottom: 12px;
+}
+
+#about {
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-bottom-left-radius: 6px;        /* CSS3草案 */ 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px;    /* Safari,Google Chrome用 */ 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;   /* Firefox用 */ 
+	-moz-border-radius-bottomright: 6px;
+	margin-bottom:6px;
+}
+
+#about li a{
+	color:#444422;
+	border:1px solid #000000;
+	heigth:32px;
+	display:block;
+	text-align:center;
+	background-color: #EEEEBB;
+	
+	background: -moz-linear-gradient(
+		top,
+		#eeeebb 0%,
+		#ddddaa 50%,
+		#bbbb99 50%,
+		#ccccaa 65%,
+		#ccccaa);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#eeeebb),
+		color-stop(0.50, #ddddaa),
+		color-stop(0.50, #bbbb99),
+		color-stop(0.65, #ccccaa),
+		to(#ccccaa));
+	
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */ 
+	text-decoration:none;
+	margin-bottom:6px;
+}
+
+#about li a:hover{
+	background-color: #FFFFFF;
+	background: -moz-linear-gradient(
+		top,
+		#eeeebb 0%,
+		#ddddaa 50%,
+		#ffffff);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#eeeebb),
+		color-stop(0.50, #ddddaa),
+		to(#ffffff));	
+			
+	color:#000000;
+	border-radius: 4px;        /* CSS3草案 */ 
+    -webkit-border-radius: 4px;    /* Safari,Google Chrome用 */ 
+    -moz-bordert-radius: 4px;   /* Firefox用 */ 
+	text-decoration:none;
+}
+
+#pr {
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+	padding-top:6px;
+	padding-left:4px;
+	border-bottom-left-radius: 6px;        /* CSS3草案 */ 
+	border-bottom-right-radius: 6px; 
+	-webkit-border-bottom-left-radius: 6px;    /* Safari,Google Chrome用 */ 
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;   /* Firefox用 */ 
+	-moz-border-radius-bottomright: 6px;
+	margin-bottom:6px;
+}
+
+#pr .repoint {
+	padding-left:20px;
+}
+
+#banner {
+	
+}
+
+#footer {
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	background-color: #FFCC33;
+	text-align: center;
+	clear : both;
+}
+
+#footer a{
+	color: #CC3300;
+}
+
+.hidden {
+	display: none;
+}

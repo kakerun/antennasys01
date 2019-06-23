@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+MultiviewsMatch Any
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f [or]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9a-zA-Z]+)/$ /index.php?param=$1 [L]
+</IfModule>
